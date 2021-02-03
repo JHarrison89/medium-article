@@ -1,0 +1,136 @@
+body {
+  background: #F7F9FC;
+  font-family: 'Roboto', serif;
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: black;
+}
+
+p{
+  font-family: Roboto
+}
+
+
+.container {
+    width: 80%;
+    margin: 4% auto;
+}
+
+
+
+.card {
+    margin: 1% 0%;
+    background: white;
+}
+
+.text_align {
+  text-align: center
+}
+
+.profile_img {
+    border-radius: 50%;
+    border: 1px solid #e4e4e4;
+    box-shadow: 0 4px 4px 0 rgb(0 0 0 / 20%);
+    float: right;
+    height: 70px;
+    width: 70px;
+}
+
+
+.shadow {
+  box-shadow: 0 4px 4px 0 rgb(0 0 0 / 5%);
+}
+
+.border{
+    border: 1px solid #e4e4e4;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.btn-main {
+    color: white;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.btn_card{
+      padding: 5% 0% 0% 0%;
+}
+
+
+
+
+.list-inline i:hover {
+  color: black;
+}
+
+.banner {
+    background-image: url(images/unsplash_sky.png);
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+}
+
+
+
+.side_bar {
+  width: 15%;
+  min-width: 100px;
+}
+
+.header{
+  background: white;
+  height: 80px;
+  padding: 0% 5% 0% 5%;
+}
+
+
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+  font-weight:bold;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+
+.li-container{
+  width: 50%;
+    float: left;
+    padding-left: 5%;
+    padding-top: 1%;
+}
